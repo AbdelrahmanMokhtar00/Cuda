@@ -1,0 +1,256 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:200,200italic,300,300italic,regular,italic,600,600italic,700,700italic,900);
+
+*{
+    font-family: 'titillium web';
+}
+.container-fluid{
+    height: 100vh;
+}
+#page1{
+    background-color: #87509c;
+    color: white;
+}
+button{
+    width: 250px;
+    height: 60px;
+    border: none;
+    border-bottom: 3px solid #ca6b40;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: #eb7d4b;
+}
+#page2{
+    background-color: #17c2a4;
+    color: white;
+}
+#page2 .row{
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+#page2 hr{
+    margin: 10px auto;
+    border: 0;
+    height: 3px;
+    background-color: #0c695a;
+}
+#page3{
+    color: #233a70;
+    background-color: #e7f1f8;
+}
+#page3 #first{
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+#page3 hr{
+    margin: 10px auto;
+    border: 0;
+    height: 3px;
+    background-color: #969da1;
+}
+#page3 .person{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0 10px 0;
+}
+#page3 #icon{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+#page3 h6{
+    color: #42cffa;
+}
+
+#page4{
+    color: #233a70;
+    background-color: #ffffff;
+}
+#page4 #first{
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+#page4 hr{
+    margin: 10px auto;
+    border: 0;
+    height: 3px;
+    background-color: #b3b3b3;
+}
+#page4 #second{
+    margin-top: 40px;
+    
+    text-align: center;
+}
+.progress-bar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.progress-bar#one{
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#5394fd 90%, rgb(233, 231, 232) 0); 
+}
+.progress-bar#two{
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#AA336A 75%, rgb(233, 231, 232) 0);
+}
+.progress-bar#three{
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#0DBA85 70%, rgb(233, 231, 232) 0);
+}
+.progress-bar#four{
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(#EC5800 85%, rgb(233, 231, 232) 0);
+}
+.progress-bar#one::before{
+    content: "90%";
+    font-size: 230%;
+}
+.progress-bar#two::before{
+    content: "75%";
+    font-size: 230%;
+}
+.progress-bar#three::before{
+    content: "70%";
+    font-size: 230%;
+}
+.progress-bar#four::before{
+    content: "85%";
+    font-size: 230%;
+}
+
+#page5{
+    color: #131e3a;
+    background-color: #ffdd99;
+    height: 200vh;
+}
+#page5 h1{
+    margin-top: 50px;
+}
+#page5 hr{
+    margin: 10px auto;
+    border: 0;
+    height: 3px;
+    background-color: #797878;
+}
+#page5 #buttons{
+    display: flex;
+    justify-content: center;
+}
+#buttons button{
+    color: #131e3a;
+    background-color: #ebc985;
+    border: none;
+    width: 80px;
+    height: 35px;
+    margin: 20px 5px 30px 5px;
+}
+#buttons button:hover{
+    background-color: white;
+}
+#page5 #second{
+    margin-bottom: 40px;
+}
+#page5 h5{
+    margin-top: 20px;
+}
+#page5 #fourth button{
+    margin-top: 40px;
+    background-color: #17c2a4;
+    border-bottom: #149e85 solid 3px;
+}
+
+#page6{
+    color: white;
+    background-color: #d74680;
+    height: 100vh;
+    text-align: center;
+}
+#page6 h1{
+    margin-top: 50px;
+}
+#page6 hr{
+    margin: 10px auto;
+    border: 0;
+    width: 5%;
+    height: 3px;
+    background-color: #555353;
+}
+#page6 img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+#page6 #second{
+    margin: 40px 0 50px 0;
+}
+#page6 .name{
+    font-weight: 600;
+}
+#page6 .job{
+    color: #ffdd99;
+}
+#page7{
+    height: 120vh;
+    color: white;
+    background-color: #3c5499;
+}
+#page7 h1{
+    margin-top: 50px;
+}
+#page7 hr{
+    margin: 10px auto;
+    border: none;
+    width: 5%;
+    height: 3px;
+    background-color: #0d193d;
+}
+#page7 input{
+    width: 100%;
+    background-color: #273a71;
+    border: none;
+    border-radius: 4px;
+    padding-left: 20px;
+}
+#page7 input::placeholder{
+    color: white;
+}
+#page7 #message::placeholder{
+    position: absolute;
+    top: 20px;
+}
+#page7 #name, #email{
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+#page7 #message{
+    height: 200px;
+    margin-bottom: 50px;
+}
+#page7 button{
+    color: white;
+    background-color: #30bae7;
+    border-bottom: #217e9c solid;
+    margin-bottom: 50px;
+}
+#page7 #fifth{
+    background-color: #344b8e;
+    height: 100px;
+}
+#page7 #fifth a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    padding: 20px;
+}
+#page7 #fifth a:hover{
+    color: #30bae7;
+}
